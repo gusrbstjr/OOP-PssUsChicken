@@ -24,6 +24,14 @@ public class User {
         return seedMoney;
     }
 
+    public MembershipLevel getMembershipLevel() {
+        return membershipLevel;
+    }
+
+    public void setMembershipLevel(MembershipLevel membershipLevel) {
+        this.membershipLevel = membershipLevel;
+    }
+
     public void setSeedMoney(int seedMoney) {
         this.seedMoney = seedMoney;
     }
