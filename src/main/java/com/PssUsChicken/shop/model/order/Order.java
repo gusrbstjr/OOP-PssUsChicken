@@ -5,40 +5,30 @@ import com.PssUsChicken.shop.model.Product.Product;
 import java.io.IOException;
 
 public class Order {
-    Product product;
-    private int count;
+    private Product product;
+    private int quantity;
 
     public Order() {}
 
-    public Order(String name, int price, int count) {
-        this.name = name;
-        this.price = price;
-        this.count = count;
-
+    public Order(Product product, int quantity) {
+        this.product = product;
+        this.quantity = quantity;
     }
 
-    public String getName() {
-        return name;
+    public Product getProduct() {
+        return product;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setProduct(Product product) {
+        this.product = product;
     }
 
-    public int getPrice() {
-        return price;
+    public int getQuantity() {
+        return quantity;
     }
 
-    public void setPrice(int price) {
-        this.price = price;
-    }
-
-    public int getCount() {
-        return count;
-    }
-
-    public void setCount(int count) {
-        this.count = count;
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
     }
 
     public void order() {
@@ -54,9 +44,9 @@ public class Order {
     @Override
     public String toString() {
         return "Order{" +
-                "name='" + name + '\'' +
-                ", price=" + price + '\'' +
-                ", count=" + count +
+                "name='" + this.product.getName() + '\'' +
+                ", price=" + this.product.getPrice() + '\'' +
+                ", count=" + quantity +
                 '}';
     }
 }

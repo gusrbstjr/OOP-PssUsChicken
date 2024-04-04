@@ -1,7 +1,5 @@
 package com.PssUsChicken.shop.model.order;
 
-import com.PssUsChicken.shop.model.Product.Product;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -21,34 +19,28 @@ public class ElectronicOrder extends Order{
         this.count = count;
     }
 
-    @Override
     public String getName() {
         return name;
     }
 
-    @Override
     public void setName(String name) {
         this.name = name;
     }
 
-    @Override
     public int getPrice() {
         return price;
     }
 
-    @Override
     public void setPrice(int price) {
         this.price = price;
     }
 
-    @Override
-    public int getCount() {
+    public int getQuantity() {
         return count;
     }
 
-    @Override
-    public void setCount(int count) {
-        this.count = count;
+    public void setQuantity(int quantity) {
+        this.count = quantity;
     }
 
     @Override
