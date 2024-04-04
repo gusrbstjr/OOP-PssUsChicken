@@ -3,12 +3,12 @@ package com.PssUsChicken.shop.model.Product;
 public class Product {
 
     private String name;
-    private String price;
+    private int price;
 
     public Product() {
     }
 
-    public Product(String name, String price) {
+    public Product(String name, int price) {
         this.name = name;
         this.price = price;
     }
@@ -21,11 +21,11 @@ public class Product {
         this.name = name;
     }
 
-    public String getPrice() {
+    public int getPrice() {
         return price;
     }
 
-    public void setPrice(String price) {
+    public void setPrice(int price) {
         this.price = price;
     }
 
