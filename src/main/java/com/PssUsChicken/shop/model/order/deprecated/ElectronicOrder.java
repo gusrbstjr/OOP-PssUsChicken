@@ -37,7 +37,7 @@ public class ElectronicOrder extends Order {
         this.price = price;
     }
 
-    public int getQuantity() {
+    public long getQuantity() {
         return count;
     }
 

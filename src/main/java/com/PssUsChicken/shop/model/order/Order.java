@@ -6,13 +6,13 @@ import java.io.IOException;
 
 public class Order {
     private Product product;
-    private int quantity;
+    private long quantity;
 
-    private int finalPrice; // final price of the order(applied discount)
+    private long finalPrice; // final price of the order(applied discount)
 
     public Order() {}
 
-    public Order(Product product, int quantity) {
+    public Order(Product product, long quantity) {
         this.product = product;
         this.quantity = quantity;
     }
@@ -25,7 +25,7 @@ public class Order {
         this.product = product;
     }
 
-    public int getQuantity() {
+    public long getQuantity() {
         return quantity;
     }
 
@@ -38,11 +38,11 @@ public class Order {
 //        System.out.println("Order order()입니다.");
 //    }
 
-    public int getFinalPrice() {
+    public long getFinalPrice() {
         return finalPrice;
     }
 
-    public void setFinalPrice(int finalPrice) {
+    public void setFinalPrice(long finalPrice) {
         this.finalPrice = finalPrice;
     }
 //    public void delivery() {

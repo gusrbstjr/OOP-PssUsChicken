@@ -69,7 +69,7 @@ public class Program {
 //                System.out.println();
 
 //                int productAmt = Integer.parseInt(st.nextToken(reader.readLine())); // 상품 입력
-                int productAmt = sc.nextInt(); sc.nextLine();    // flush
+                long productAmt = sc.nextLong(); sc.nextLine();    // flush
 
                 // 주문시작
                 try {
@@ -77,8 +77,10 @@ public class Program {
 
                     System.out.println("주문이 완료되었습니다.");
                     System.out.println("주문 정보 : " + order.toString());
-                } catch (Exception e) {
-                    System.out.println("돈부족 : " + e.getMessage());
+                } catch (IllegalStateException e) { // 결제액 부족
+                    System.out.println(e.getMessage());
+                } catch (ArithmeticException e) {
+                    System.out.println("과소비는 건강에 해롭습니다. 대량구매는 도매상에게 문의하세요.");
                 }
             } else if (menu == 2) {
                 System.out.println("============== 유저 정보 ==============");

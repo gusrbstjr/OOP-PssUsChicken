@@ -37,9 +37,9 @@ public class FoodOrder extends Order {
         this.price = price;
     }
 
-    public int getQuantity() {
-        return count;
-    }
+//    public int getQuantity() {
+//        return count;
+//    }
 
     public void setQuantity(int quantity) {
         this.count = quantity;

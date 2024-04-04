@@ -6,7 +6,7 @@ import com.PssUsChicken.shop.model.user.memberShip.*;
 import java.util.*;
 
 public class User {
-    private int seedMoney;
+    private long seedMoney;
     private List<Order> orders;                         // todo: change generic type to 'Order' related model
     private MembershipLevel membershipLevel;
 
@@ -21,7 +21,7 @@ public class User {
     }
 
     // Properties
-    public int getSeedMoney() {
+    public long getSeedMoney() {
         return seedMoney;
     }
 
@@ -33,7 +33,7 @@ public class User {
         this.membershipLevel = membershipLevel;
     }
 
-    public void setSeedMoney(int seedMoney) {
+    public void setSeedMoney(long seedMoney) {
         this.seedMoney = seedMoney;
     }
 
