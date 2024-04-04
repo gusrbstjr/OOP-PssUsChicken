@@ -8,6 +8,8 @@ public class Order {
     private Product product;
     private int quantity;
 
+    private int finalPrice; // final price of the order(applied discount)
+
     public Order() {}
 
     public Order(Product product, int quantity) {
@@ -31,22 +33,32 @@ public class Order {
         this.quantity = quantity;
     }
 
-    public void order() {
-        System.out.println("Order order()입니다.");
+    // Deprecated
+//    public void order() {
+//        System.out.println("Order order()입니다.");
+//    }
+
+    public int getFinalPrice() {
+        return finalPrice;
     }
-    public void delivery() {
-        System.out.println("공통된 delivery()입니다.");
+
+    public void setFinalPrice(int finalPrice) {
+        this.finalPrice = finalPrice;
     }
-    public void pay() throws IOException {
-        System.out.println("Order의 pay()입니다.");
-    }
+//    public void delivery() {
+//        System.out.println("공통된 delivery()입니다.");
+//    }
+//    public void pay() throws IOException {
+//        System.out.println("Order의 pay()입니다.");
+//    }
 
     @Override
     public String toString() {
         return "Order{" +
+                "product type='" + this.product.getClass().getSimpleName() + '\'' +
                 "name='" + this.product.getName() + '\'' +
                 ", price=" + this.product.getPrice() + '\'' +
-                ", count=" + quantity +
-                '}';
+                ", count=" + quantity + '\'' +
+                ", finalPrice=" + finalPrice + "'}";
     }
 }

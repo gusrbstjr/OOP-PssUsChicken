@@ -1,6 +1,6 @@
 package com.PssUsChicken.shop.model.Product;
 
-public class Product {
+public abstract class Product {
 
     private String name;
     private int price;

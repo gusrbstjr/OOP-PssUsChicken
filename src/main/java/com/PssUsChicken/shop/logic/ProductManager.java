@@ -1,14 +1,16 @@
-package com.PssUsChicken.shop.model.Product;
+package com.PssUsChicken.shop.logic;
 
+import com.PssUsChicken.shop.model.Product.Product;
+
+import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class ProductManager {
 
-    private List <Product> productList = new ArrayList<>();
+    private ArrayList<Product> productList = new ArrayList<>();
 
-    public List<Product> getProductList() {
+    public ArrayList<Product> getProductList() {
         return productList;
     }
 

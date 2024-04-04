@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d441c5d3-e504-447e-83ed-781cd2b8e736" name="Changes" comment=".idea file">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/model/Product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/model/Product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/model/Product/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/logic/ProductManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/model/order/ElectronicOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/model/order/deprecated/ElectronicOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/model/order/FoodOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/model/order/deprecated/FoodOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/model/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/model/order/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/model/order/OrderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/logic/OrderManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/model/order/OrderMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/model/order/deprecated/OrderMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/model/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/model/user/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,15 +56,16 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2eXMBE3tEcbaDxtLp7vTqxz93dV" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.OOP-PssUsChicken [:Program.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -77,7 +84,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.10-temurin-17.0.10-4caba194b151-b3785831" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -96,6 +104,7 @@
       <workItem from="1712202443816" duration="50000" />
       <workItem from="1712209918441" duration="1376000" />
       <workItem from="1712214609550" duration="1524000" />
+      <workItem from="1712241084133" duration="1806000" />
     </task>
     <task id="LOCAL-00001" summary="gradle.xml file">
       <created>1712200187978</created>

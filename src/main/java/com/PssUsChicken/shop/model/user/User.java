@@ -1,12 +1,13 @@
 package com.PssUsChicken.shop.model.user;
 
+import com.PssUsChicken.shop.model.order.Order;
 import com.PssUsChicken.shop.model.user.memberShip.*;
 
 import java.util.*;
 
 public class User {
     private int seedMoney;
-    private List<?> orders;                         // todo: change generic type to 'Order' related model
+    private List<Order> orders;                         // todo: change generic type to 'Order' related model
     private MembershipLevel membershipLevel;
 
     /**
@@ -36,7 +37,7 @@ public class User {
         this.seedMoney = seedMoney;
     }
 
-    public List<?> getOrders() {    // todo: need to change generic type after implementing 'Order' related model
+    public List<Order> getOrders() {    // todo: need to change generic type after implementing 'Order' related model
         return orders;
     }
 
@@ -57,9 +58,9 @@ public class User {
         formatted.append("Seed Money: ").append(seedMoney).append("\n");
         formatted.append("Membership Level: ").append(membershipLevel.getClass().getSimpleName()).append("\n");
         formatted.append("Orders[").append(orders.size()).append("]\n");
-//        for(Order order : orders) {
-//            formatted.append(order.toString()).append("\n");
-//        }
+        for(Order order : orders) {
+            formatted.append(order.toString()).append("\n");
+        }
 
         return formatted.toString();
     }

@@ -1,6 +1,6 @@
-package com.PssUsChicken.shop.model.order;
+package com.PssUsChicken.shop.model.order.deprecated;
 
-import com.PssUsChicken.shop.model.Product.Product;
+import com.PssUsChicken.shop.model.order.Order;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -48,9 +48,9 @@ public class OrderMenu {
                 order = new ElectronicOrder(str, 99000, cnt);
             }
 
-            order.delivery();
-            order.pay();
-            order.order();
+//            order.delivery();
+//            order.pay();
+//            order.order();
 
         }
 
@@ -65,10 +65,10 @@ public class OrderMenu {
             } else if(foods.equals("된장")) {
                 order = new FoodOrder(foods, 9000, cnt);
             }
-
-            order.delivery();
-            order.pay();
-            order.order();
+//
+//            order.delivery();
+//            order.pay();
+//            order.order();
 
         }
 
