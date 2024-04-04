@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d441c5d3-e504-447e-83ed-781cd2b8e736" name="Changes" comment="gradle.xml file" />
+    <list default="true" id="d441c5d3-e504-447e-83ed-781cd2b8e736" name="Changes" comment=".idea file">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/controller/MiniController.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +25,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MicroProject" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -70,6 +80,9 @@
       <workItem from="1712046333548" duration="1246000" />
       <workItem from="1712128302316" duration="190000" />
       <workItem from="1712199870253" duration="746000" />
+      <workItem from="1712200622264" duration="155000" />
+      <workItem from="1712202443816" duration="50000" />
+      <workItem from="1712209918441" duration="1376000" />
     </task>
     <task id="LOCAL-00001" summary="gradle.xml file">
       <created>1712200187978</created>
@@ -78,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712200187978</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=".idea file">
+      <created>1712200667102</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712200667102</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +117,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gradle.xml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="gradle.xml file" />
+    <MESSAGE value=".idea file" />
+    <option name="LAST_COMMIT_MESSAGE" value=".idea file" />
   </component>
 </project>
