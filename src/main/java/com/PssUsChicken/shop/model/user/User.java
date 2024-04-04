@@ -1,12 +1,13 @@
 package com.PssUsChicken.shop.model.user;
 
+import com.PssUsChicken.shop.model.user.memberShip.*;
+
 import java.util.*;
-import java.util.List;
 
 public class User {
     private int seedMoney;
     private List<?> orders;                         // todo: change generic type to 'Order' related model
-    // private IMembership membershipLevel;     // todo: need to implement 'MembershipLevel'
+    private MembershipLevel membershipLevel;
 
     /**
      * Constructor
@@ -15,7 +16,7 @@ public class User {
     public User(int seedMoney) {
         this.seedMoney = seedMoney;
         this.orders = new ArrayList<>();
-        // this.membershipLevel = new MembershipLevel();    // todo: need to implement 'MembershipLevel'
+        this.membershipLevel = new Bronze();    // todo: need to implement 'MembershipLevel'
     }
 
     // Properties
@@ -31,12 +32,24 @@ public class User {
         return orders;
     }
 
+    public void updateMembership() {
+
+    }
+
     /**
      * @return user information
      */
     @Override
     public String toString() {
-        // todo: return formatted string(need to implement)
-        return "";
+        StringBuilder formatted = new StringBuilder();
+
+        formatted.append("Seed Money: ").append(seedMoney).append("\n");
+        formatted.append("Membership Level: ").append(membershipLevel.getClass().getSimpleName()).append("\n");
+        formatted.append("Orders[").append(orders.size()).append("]\n");
+//        for(Order order : orders) {
+//            formatted.append(order.toString()).append("\n");
+//        }
+
+        return formatted.toString();
     }
 }
