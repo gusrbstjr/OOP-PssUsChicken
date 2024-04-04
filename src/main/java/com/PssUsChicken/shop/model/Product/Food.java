@@ -5,7 +5,7 @@ public class Food extends Product{
     public Food() {
     }
 
-    public Food(String name, String price) {
+    public Food(String name, int price) {
         super(name, price);
     }
 
