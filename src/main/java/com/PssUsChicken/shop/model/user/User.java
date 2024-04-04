@@ -15,8 +15,8 @@ public class User {
      */
     public User(int seedMoney) {
         this.seedMoney = seedMoney;
-        this.orders = new ArrayList<>();
-        this.membershipLevel = new Bronze();    // todo: need to implement 'MembershipLevel'
+        orders = new ArrayList<>();
+        membershipLevel = new Bronze();
     }
 
     // Properties
@@ -33,7 +33,10 @@ public class User {
     }
 
     public void updateMembership() {
-        // 123
+        int orderCount = orders.size();
+        if (orderCount == 1) membershipLevel = new Silver();
+        else if (orderCount == 2) membershipLevel = new Gold();
+        else if (orderCount == 3) membershipLevel = new VIP();
     }
 
     /**
