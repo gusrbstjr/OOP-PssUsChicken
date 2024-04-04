@@ -5,7 +5,7 @@ public class Electronic extends Product{
     public Electronic() {
     }
 
-    public Electronic(String name, String price) {
+    public Electronic(String name, int price) {
         super(name, price);
     }
 }
