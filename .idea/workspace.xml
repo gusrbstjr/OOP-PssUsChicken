@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d441c5d3-e504-447e-83ed-781cd2b8e736" name="Changes" comment=".idea file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +73,21 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="OOP-PssUsChicken" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="OOP-PssUsChicken" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -98,6 +114,7 @@
       <workItem from="1712241084133" duration="2013000" />
       <workItem from="1712243341776" duration="2025000" />
       <workItem from="1712275076020" duration="785000" />
+      <workItem from="1712300242869" duration="1125000" />
     </task>
     <task id="LOCAL-00001" summary="gradle.xml file">
       <created>1712200187978</created>
