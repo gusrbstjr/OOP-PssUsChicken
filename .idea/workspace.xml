@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d441c5d3-e504-447e-83ed-781cd2b8e736" name="Changes" comment=".idea file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/logic/OrderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/logic/OrderManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/model/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/model/order/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/model/order/deprecated/ElectronicOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/model/order/deprecated/ElectronicOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/model/order/deprecated/FoodOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/model/order/deprecated/FoodOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/model/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/PssUsChicken/shop/model/user/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +97,7 @@
       <workItem from="1712214609550" duration="1524000" />
       <workItem from="1712241084133" duration="2013000" />
       <workItem from="1712243341776" duration="2025000" />
+      <workItem from="1712275076020" duration="785000" />
     </task>
     <task id="LOCAL-00001" summary="gradle.xml file">
       <created>1712200187978</created>
